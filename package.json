@@ -1,0 +1,40 @@
+{
+  "name": "fdoc-be-4-dighetushar654",
+  "version": "1.0.0",
+  "description": "- Use Passport Js and add authentication to your App\r - Create Register and Sign in APIs and on successful signin use Token based authentication\r - Signed in User should only be able to call the routes\r - Create a basic html page and serve it using express app\r - Html page for Register, Sign in and display users Todo list should be created",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/exponentsoftware/fdoc-be-4-dighetushar654.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/exponentsoftware/fdoc-be-4-dighetushar654/issues"
+  },
+  "homepage": "https://github.com/exponentsoftware/fdoc-be-4-dighetushar654#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "express-validator": "5.3.1",
+    "helmet": "^4.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.13.4",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.12",
+    "passport": "^0.5.0",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0",
+    "validator": "^13.6.0"
+  }
+}
